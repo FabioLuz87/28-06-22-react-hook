@@ -5,5 +5,5 @@ export const PaperStyled = styled(Paper) ({
     padding: '30px',
     // background: 'red',
     // color: 'white',
-    marginRight: '10px'
+    margin: '10px'
 });

@@ -12,7 +12,6 @@ export default function Routers() {
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/landing' element={<Landing/>} />
-                <Route path='/counter' element={<Counter/>} />
                 <Route path='/counter2' element={<Counter2/>} />
                 <Route path='/counter3' element={<Counter3/>} />
                 <Route path='/counter4' element={<Counter4/>} />

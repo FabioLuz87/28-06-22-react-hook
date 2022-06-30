@@ -31,6 +31,7 @@ function Exemplo3() {
           <Typography variant='h6'>O useEffect é executado quando o componente atualiza ou é renderizado</Typography>
       <img src={Exemplo_3}/>
       </Box>
+      
     </Grid>      
   );
 }

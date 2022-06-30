@@ -8,7 +8,7 @@ type CustomPaperProps = {
 export default function CustomPaper({ title }: CustomPaperProps) {
     return (
         <PaperStyled elevation={2}>
-            <Typography variant='body2'>{ title }</Typography>
+            <Typography variant='h4' color='gray'>{ title }</Typography>
         </PaperStyled>
     );
 }

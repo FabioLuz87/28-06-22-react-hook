@@ -1,10 +1,12 @@
+import {Link} from 'react-router-dom'
+import Counter3 from '../Counter3'
 import { useState, useEffect } from 'react';
 import { Grid, Box, Typography, Button } from '@mui/material'
 import Exemplo_2 from '../../Assets/Exemplo_2.png'
 
 function Exemplo2() {
   const [count, setCount] = useState(0);
-    const [title, setTitle] = useState('Valor inicial');
+  const [title, setTitle] = useState('Valor inicial');
     
     useEffect(() => {
         alert('Mudou o title');
@@ -13,7 +15,7 @@ function Exemplo2() {
     function increase() {  
       setCount(old => ++old);
       
-      if (count > 10) {
+      if (count >= 10) {
         setTitle('Novo valor');
       }
     };
@@ -31,6 +33,7 @@ function Exemplo2() {
         <Typography variant='h6'>O useEffect é executado quando o componente atualiza ou é renderizado</Typography>
     <img src={Exemplo_2}/>
     </Box>
+    <Link color='primary' to='/Counter3'>Exemplo 3</Link>  
   </Grid>  
   );
 }
