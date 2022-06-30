@@ -1,7 +1,6 @@
-
 type CardImageProps = {
     imageSrc: string
-    imageAlt: string
+    imageAlt?: string
 }
 
 function CardImage(props:CardImageProps) {
